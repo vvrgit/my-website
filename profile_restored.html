@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dr. Venkataramana Veeramsetty — Profile</title>
+  <meta name="description" content="Dr. Venkataramana Veeramsetty — Professor, School of Computer Science and AI" />
+  <style>
+    :root{
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#2563eb;
+      --radius:12px;
+      --maxw:900px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#0f172a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#f8fafc 0%,var(--bg) 100%);
+      display:flex;
+      justify-content:center;
+      padding:32px 16px;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+    }
+    header{
+      display:flex;
+      gap:20px;
+      align-items:center;
+      background:var(--card);
+      padding:22px;
+      border-radius:var(--radius);
+      box-shadow:0 6px 22px rgba(2,6,23,0.06);
+    }
+    .photo{
+      flex:0 0 120px;
+      height:120px;
+      border-radius:14px;
+      overflow:hidden;
+      background:linear-gradient(135deg,#dbeafe,#c7d2fe);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .photo img{width:100%; height:100%; object-fit:cover; display:block}
+    .headline{
+      flex:1;
+    }
+    h1{
+      margin:0;
+      font-size:20px;
+      line-height:1.05;
+      letter-spacing: -0.2px;
+    }
+    .title{
+      margin-top:6px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .actions{
+      display:flex;
+      gap:8px;
+      align-items:center;
+    }
+    a.button{
+      display:inline-block;
+      padding:8px 12px;
+      background:var(--accent);
+      color:#fff;
+      text-decoration:none;
+      border-radius:8px;
+      font-size:14px;
+    }
+    main{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap:18px;
+    }
+    @media (max-width:880px){
+      header{flex-direction:row; align-items:center}
+      main{grid-template-columns:1fr; }
+    }
+    .card{
+      background:var(--card);
+      border-radius:12px;
+      padding:18px;
+      box-shadow:0 6px 18px rgba(15,23,42,0.04);
+    }
+    .section-title{font-weight:700; margin:0 0 8px 0; font-size:15px}
+    .muted{color:var(--muted)}
+    .bio{white-space:pre-wrap; margin:6px 0 0 0; color:#0b1220; line-height:1.5}
+    .info-list{list-style:none; padding:0; margin:8px 0 0 0;}
+    .info-list li{margin:8px 0; display:flex; gap:8px; align-items:center}
+    .pill{display:inline-block;background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:13px}
+    .sidebar .card + .card{margin-top:14px}
+    .pub {margin:8px 0; font-size:14px}
+    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
+    /* small utility */
+    .small{font-size:13px; color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="photo">
+        <!-- Local headshot -->
+        <img src="myphoto_sru.jpg" alt="Dr. Venkataramana Veeramsetty" loading="lazy">
+      </div>
+
+      <div class="headline" role="banner">
+        <h1>Dr. Venkataramana Veeramsetty</h1>
+        <div class="title">Professor — School of Computer Science and AI</div>
+        <div class="small" style="margin-top:10px">
+          Office: SR University, Warangal, Telangana State, India - 506371 · Email: <a href="mailto:v.venkataramana@sru.edu.in">v.venkataramana@sru.edu.in</a>
+        </div>
+      </div>
+
+      <div class="actions" role="navigation" aria-label="Profile actions">
+        <a class="button" href="#research">Research</a>
+        <a class="button" href="#teaching">Teaching</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="about">
+        <h2 id="about" class="section-title">About</h2>
+        <div class="bio">
+Dr. Venkataramana Veeramsetty is a Professor in the School of Computer Science and AI. His research focuses on machine learning, intelligent systems, and applications of AI to real-world problems. He has published extensively on topics including (but not limited to) deep learning, explainable AI, and computational algorithms for large-scale data.
+        </div>
+
+        <h3 class="section-title" style="margin-top:16px">Selected Research Interests</h3>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px">
+          <span class="pill">Machine Learning</span>
+          <span class="pill">Deep Learning</span>
+          <span class="pill">Explainable AI</span>
+          <span class="pill">Computer Vision</span>
+          <span class="pill">Data-driven Systems</span>
+        </div>
+
+  <h3 id="research" class="section-title" style="margin-top:16px">Research</h3>
+  <div style="margin-bottom:12px">
+          <p class="small">Find my work and research profiles:</p>
+          <ul class="info-list" style="margin-left:8px">
+            <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?hl=en&user=u1Bs-GsAAAAJ&view_op=list_works" target="_blank" rel="noopener">V. Veeramsetty (Scholar)</a></li>
+            <li><strong>ORCID:</strong> <a href="https://orcid.org/my-orcid?orcid=0000-0002-2512-5761" target="_blank" rel="noopener">0000-0002-2512-5761</a></li>
+          </ul>
+        </div>
+
+        <h3 class="section-title" style="margin-top:6px">Selected Publications (top cited)</h3>
+        <ol class="pub-list" style="margin:8px 0 0 16px; padding:0">
+          <li class="pub">Short-term electric power load forecasting using random forest and gated recurrent unit — V. Veeramsetty, K.R. Reddy, M. Santhosh, A. Mohnot, G. Singal. Electrical Engineering 104(1):307–329 (2022). <span class="small">Cited by 108</span></li>
+          <li class="pub">Electric power load forecasting on a 33/11 kV substation using artificial neural networks — V. Veeramsetty, R. Deshmukh. SN Applied Sciences 2(5):855 (2020). <span class="small">Cited by 59</span></li>
+          <li class="pub">Coinnet: platform independent application to recognize Indian currency notes using deep learning techniques — V. Veeramsetty, G. Singal, T. Badal. Multimedia Tools and Applications 79(31):22569–22594 (2020). <span class="small">Cited by 55</span></li>
+          <li class="pub">Short term electric power load forecasting using principal component analysis and recurrent neural networks — V. Veeramsetty, D.R. Chandra, F. Grimaccia, M. Mussetta. Forecasting 4(1):149–164 (2022). <span class="small">Cited by 45</span></li>
+          <li class="pub">Optimal placement of distribution generation in radial distribution system using hybrid genetic dragonfly algorithm — G.V.N. Lakshmi, A. Jayalaxmi, V. Veeramsetty. Technology and Economics of Smart Grids and Sustainable Energy 6(1):9 (2021). <span class="small">Cited by 44</span></li>
+          <li class="pub">Short‑term electric power load forecasting using factor analysis and long short‑term memory for smart cities — V. Veeramsetty, D.R. Chandra, S.R. Salkuti. International Journal of Circuit Theory and Applications 49(6):1678–1703 (2021). <span class="small">Cited by 41</span></li>
+          <li class="pub">Hybrid genetic dragonfly algorithm based optimal power flow for computing LMP at DG buses for reliability improvement — V. Veeramsetty, C. Venkaiah, D.M.V. Kumar. Energy Systems 9(3):709–757 (2018). <span class="small">Cited by 41</span></li>
+          <li class="pub">Short term active power load prediction on a 33/11 kV substation using regression models — V. Veeramsetty, A. Mohnot, G. Singal, S.R. Salkuti. Energies 14(11):2981 (2021). <span class="small">Cited by 30</span></li>
+          <li class="pub">RoadWay: lane detection for autonomous driving vehicles via deep learning — G. Singal, H. Singhal, R. Kushwaha, V. Veeramsetty, T. Badal, S. Lamba. Multimedia Tools and Applications 82(4):4965–4978 (2023). <span class="small">Cited by 27</span></li>
+          <li class="pub">Shapley value cooperative game theory-based locational marginal price computation for loss and emission reduction — V. Veeramsetty. Protection and Control of Modern Power Systems 6(4):1–11 (2021). <span class="small">Cited by 27</span></li>
+        </ol>
+
+        <h3 id="teaching" class="section-title" style="margin-top:16px">Teaching</h3>
+        <p class="small">Teaching subjects:</p>
+        <ul class="info-list">
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+          <li>AI Assisted Coding</li>
+        </ul>
+
+        <h3 class="section-title" style="margin-top:16px">Office Hours</h3>
+        <p class="small">Tuesdays 2:00–4:00 PM or by appointment (contact by email).</p>
+      </section>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3 class="section-title">Connect</h3>
+          <ul class="info-list">
+            <li><strong>Website:</strong> <a href="https://sru.edu.in/faculty/FacultyProfile/64-venkataramana-veeramsetty" target="_blank" rel="noopener">SR University profile</a></li>
+            <li><strong>Email:</strong> <a href="mailto:v.venkataramana@sru.edu.in">v.venkataramana@sru.edu.in</a></li>
+            <li><strong>Address:</strong> SR University, Warangal, Telangana State, India - 506371</li>
+            <li><strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-2512-5761" target="_blank" rel="noopener">0000-0002-2512-5761</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dr-venkataramana-veeramsetty-7a42871a4/" target="_blank" rel="noopener">dr-venkataramana-veeramsetty</a></li>
+            <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?hl=en&user=u1Bs-GsAAAAJ&view_op=list_works" target="_blank" rel="noopener">V. Veeramsetty (Scholar)</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3 class="section-title">Quick CV</h3>
+          <div class="small">
+            - Ph.D. in Electrical Engineering, NIT Warangal<br>
+            - 12+ years teaching experience<br>
+            - 2 years industry experience as Systems Engineer at Infosys<br>
+            - NVIDIA DLI Instructor since 2018
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Dr. Venkataramana Veeramsetty — School of Computer Science and AI
+    </footer>
+  </div>
+
+  <script>
+    // small script: sets footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // enable smooth scrolling when using internal links
+    if ('scrollBehavior' in document.documentElement.style) {
+      document.querySelectorAll('a[href^="#"]').forEach(function(a){
+        a.addEventListener('click', function(e){
+          var target = document.querySelector(this.getAttribute('href'));
+          if(target){
+            e.preventDefault();
+            target.scrollIntoView({behavior: 'smooth', block: 'start'});
+            // move focus for accessibility
+            target.setAttribute('tabindex', '-1');
+            target.focus({preventScroll:true});
+          }
+        });
+      });
+    }
+  </script>
+</body>
+</html>
